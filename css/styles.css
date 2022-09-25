@@ -29,7 +29,55 @@ body {
   margin: -1px;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  outline: 2px solid red;
+}
+
 /* -----------------Header-------------- */
+.header-content {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  gap: 93px;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header-item {
+  display: flex;
+}
+
+.header-contacts-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 50px;
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -57,6 +105,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contacts {
@@ -78,8 +128,18 @@ body {
 }
 
 /* -----------------Hero-------------- */
+.hero {
+  text-align: center;
+}
 
+.hero-content {
+  padding: 200px 252px;
+}
 .hero-title {
+  margin: 0 auto;
+  max-width: 696px;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -90,6 +150,10 @@ body {
 }
 
 .hero-btn {
+  padding: 10px 32px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -101,16 +165,24 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--accent-color);
+  background: #2196f3;
+  
 }
 
 /* -----------------Наші переваги-------------- */
+.advantages-content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 30px;
+}
 
 .advantages-subtitle {
+margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,8 +199,21 @@ body {
 }
 
 /* -----------------Чим ми займаємося-------------- */
+.work {
+  text-align: center;
+}
+
+
+.work-list {
+  display: flex;
+  gap: 30px;
+  width: calc((100 - 60px) / 3);
+  padding-bottom: 94px;
+}
 
 .work-title {
+margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -137,6 +222,14 @@ body {
 }
 
 /* -----------------Наша Команда-------------- */
+.team {
+  text-align: center;
+}
+
+.team-content {
+  padding-top: 94px;
+  padding-bottom: 87px;
+}
 
 .team-title {
   font-weight: 700;
@@ -146,7 +239,15 @@ body {
   color: #212121;
 }
 
+.team-list {
+  display: flex;
+  gap: 30px;
+  width: calc((100 - 90px) / 4);
+}
+
 .team-name {
+margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -164,8 +265,13 @@ body {
 }
 
 /* -----------------Footer-------------- */
-
+.footer-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-logo {
+  margin-bottom: 20px;
+
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
