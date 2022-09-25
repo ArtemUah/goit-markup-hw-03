@@ -49,12 +49,14 @@ ol {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px solid red;
 }
 
 /* -----------------Header-------------- */
+
 .header-content {
   display: flex;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .header-nav {
@@ -152,7 +154,6 @@ ol {
 .hero-btn {
   padding: 10px 32px;
   margin: 0 auto;
-  margin-bottom: 200px;
 
   font-family: inherit;
   font-style: normal;
@@ -166,7 +167,6 @@ ol {
   color: #ffffff;
   cursor: pointer;
   background: #2196f3;
-  
 }
 
 /* -----------------Наші переваги-------------- */
@@ -181,7 +181,7 @@ ol {
 }
 
 .advantages-subtitle {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -203,16 +203,19 @@ margin-bottom: 10px;
   text-align: center;
 }
 
+.work-content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .work-list {
   display: flex;
   gap: 30px;
   width: calc((100 - 60px) / 3);
-  padding-bottom: 94px;
 }
 
 .work-title {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -228,7 +231,7 @@ margin-bottom: 50px;
 
 .team-content {
   padding-top: 94px;
-  padding-bottom: 87px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -246,7 +249,7 @@ margin-bottom: 50px;
 }
 
 .team-name {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -270,8 +273,6 @@ margin-bottom: 10px;
   padding-bottom: 60px;
 }
 .footer-logo {
-  margin-bottom: 20px;
-
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -279,6 +280,10 @@ margin-bottom: 10px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.footer-adress {
+  margin-top: 20px;
 }
 
 .footer-studio {
@@ -320,6 +325,17 @@ margin-bottom: 10px;
 }
 
 /* -----------------Портфоліо-------------- */
+.portfolio-content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-button-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 34px;
+}
 
 .portfolio-btn {
   font-family: inherit;
@@ -331,11 +347,32 @@ margin-bottom: 10px;
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
+  background: transparent;
+  border: none;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: var(--accent-color);
+  color: var(--page-color);
+  background: var(--accent-color);
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: calc((100 - 60) / 3);
+}
+
+.portfolio-item {
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+}
+
+.portfolio-text-group {
+  display: block;
+  padding: 20px 24px;
+}
+
 .portfolio-subtitle {
   font-weight: 700;
   font-size: 18px;
