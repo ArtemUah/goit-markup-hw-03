@@ -201,7 +201,6 @@ ol {
 /* -----------------Чим ми займаємося-------------- */
 .work {
   text-align: center;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -341,10 +340,7 @@ ol {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-bottom: 34px;
-}
-
-.portfolio-button-item {
+  margin-bottom: 50px;
 }
 
 .portfolio-btn {
@@ -377,14 +373,13 @@ ol {
 }
 
 .portfolio-item {
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
+border: none;
 }
 
 .portfolio-text-group {
   display: block;
   padding: 20px 24px;
-  border: 1px solid white;
+  border: 1px solid #EEEEEE;
 }
 
 .portfolio-subtitle {
