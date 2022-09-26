@@ -137,7 +137,6 @@ ol {
   padding: 200px 0;
 }
 
-
 .hero-title {
   margin: 0 auto;
   max-width: 696px;
@@ -203,7 +202,7 @@ ol {
 .work {
   text-align: center;
   padding-top: 94px;
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work-list {
@@ -226,11 +225,11 @@ ol {
 .team {
   text-align: center;
   padding-top: 94px;
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -279,7 +278,7 @@ margin-bottom: 50px;
 }
 
 .footer-logo {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -346,12 +345,11 @@ margin-bottom: 20px;
 }
 
 .portfolio-button-item {
-  
 }
 
 .portfolio-btn {
-display: block;
-padding: 6px 22px;
+  display: block;
+  padding: 6px 22px;
 
   font-family: inherit;
   font-style: normal;
