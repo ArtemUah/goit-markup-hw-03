@@ -337,7 +337,14 @@ ol {
   margin-bottom: 34px;
 }
 
+.portfolio-button-item {
+  
+}
+
 .portfolio-btn {
+display: block;
+padding: 6px 22px;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
